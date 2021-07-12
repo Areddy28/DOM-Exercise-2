@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    position: relative; 
+}
+
+#numbers {
+    display: none;
+
+}
+
+#menu { 
+    border: 1px solid gray;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    border-left: 1 px solid gray;
+    border-right: 1 px solid gray;
+    border-bottom: 1 px solid gray;
+    display: none;
+}
+
+#countainer {
+    margin-top: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 20px; 
+    list-style-type: none;
+}
+
+li:nth-of-type() {
+    margin-bottom: 20px;
+}
